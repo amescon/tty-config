@@ -1,0 +1,5 @@
+
+Test tool to change tty configuration
+
+usage: ./test --device=/dev/ttyRPC+2 --baudrate=9600 --parity=none --stopbits=1
+result: configures /dev/ttyRPC+2 to use baudrate=9600, parity=none and stopbits=1
